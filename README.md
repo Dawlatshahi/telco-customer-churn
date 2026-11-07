@@ -24,4 +24,4 @@ Jupyter notebook in VS Code. Environment setup and dependency documentation are 
 
 ## AI assistance
 
-ChatGPT/Codex has assisted with planning, dataset comparison, and repository organization. Update this record as work progresses, and describe AI use in the final report as required by the assignment.
+ChatGPT/Codex has assisted with planning, dataset comparison, and repository organization.
