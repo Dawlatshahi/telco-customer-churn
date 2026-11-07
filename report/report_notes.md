@@ -26,6 +26,10 @@
 - Limitation: this excludes the 11 customers with zero tenure.
 - kept the original data in df and the unchanged CSV; cleaning was applied to df_clean.
 
+- zero duplicate customer Ids and zero duplicate full rows.
+- Inspection of distinct category values found no obvious inconsistent labels.
+- no internet service and no phone service were kept as meaningful categories.
+
 ## 5. Models and Evaluation
 
 ## 6. Findings and Limitations
