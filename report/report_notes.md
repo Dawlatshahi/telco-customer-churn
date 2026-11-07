@@ -28,6 +28,21 @@
 - the month-to-month has the highest rate of churn and it means that the longer the contract the lower the churn rate
 - Figure: `figures/churn_by_contract.png` 
 
+### Tenure and Monthly Charges by Churn
+- customer who churned generally had shorter tenure and higher monthly charges.
+- the median tenure of 10 months means at least half the churned customers had tenure of 10 months or less.
+
+ Measure            Stayed (No) | Churned (Yes)
+
+ Mean tenure (months) | 37.65 | 17.98 |
+ Median tenure (months) | 38 | 10 |
+ Mean monthly charges | 61.31 | 74.44 |
+ Median monthly charges | 64.45 | 79.65 |
+
+ - these comparisions show associations not proof that shorter tenure or higher charges cause churn.
+- Figure: `figures/tenure_by_churn.png`
+ - Figure: `figures/monthly_charges_by_churn.png`
+
 
 ## 4. Cleaning Decisions
 
