@@ -20,6 +20,13 @@
 - stayed (NO) 5163  --> 73.42%
 - Churned (yes) 1869 --> 26.58 %
 
+### Churn by Contract Type
+- churn rates 
+- month-to-month 42.71%
+- one-year 11.28%
+- two-year 2.85%
+- the month-to-month has the highest rate of churn and it means that the longer the contract the lower the churn rate
+- Figure: `figures/churn_by_contract.png` 
 
 
 ## 4. Cleaning Decisions
