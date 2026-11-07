@@ -19,3 +19,6 @@ data/raw/*
 # Local secrets
 .env
 .env.*
+
+# Apple Pages working documents
+*.pages
