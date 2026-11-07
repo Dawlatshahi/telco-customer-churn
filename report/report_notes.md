@@ -8,12 +8,19 @@
 
 - 7043 customers, 21 columns
 - 19 potential predictors, one identifier(customerID), and one target (churn).
-- TotalCharges is sorted as text
+- TotalCharges is stored as text
 
 - With isna() I checked the missing in every column and reported zero missing values
 - and also whitespace check found 11 blank TotalCharges
 - All 11 customers with blank TotalCharges have tenure = 0 and churn = No
 - no rows or values have been changed (Before Cleaning)
+
+### Churn Class Balance After Cleaning
+- our cleaned dataset is imbalanced 
+- stayed (NO) 5163  --> 73.42%
+- Churned (yes) 1869 --> 26.58 %
+
+
 
 ## 4. Cleaning Decisions
 
@@ -31,6 +38,7 @@
 - no internet service and no phone service were kept as meaningful categories.
 
 ## 5. Models and Evaluation
+- predicting "No" for everyone would achieve 73.42% accuracy while identifying no customers who churned.
 
 ## 6. Findings and Limitations
 
