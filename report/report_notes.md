@@ -92,6 +92,29 @@
 - Trained on the same 5,625 customers as Logistic Regression.
 - Test performance has not yet been evaluated.
 
+### “Test Evaluation Results”
+- Precision: about 65% of customers predicted to churn actually churned.
+- Recall: it identified about 57% of actual churners, missing about 43%.
+- ROC-AUC: its churn-risk ranking was better than Random Forest’s on this split.
+Both exceed the 73.42% always-stay accuracy baseline, but neither identifies every churner. These results apply to this split and these model settings; they don’t establish that Logistic Regression always performs better.
+
+| Metric | Logistic Regression | Random Forest |
+| Accuracy | 80.45% | 78.61% |
+| Precision | 64.95% | 62.46% |
+| Recall | 57.49% | 48.93% |
+| F1 | 0.6099 | 0.5487 |
+| ROC-AUC | 0.8359 | 0.8128 |
+
+### ROC Comparison
+- Both curves lie above the chance diagonal, showing useful discrimination on this test set.
+- Logistic Regression is above Random Forest across much of the curve, with higher ROC-AUC: 0.8359 versus 0.8128.
+- Identifying more churners generally requires accepting more false alarms.
+- Neither model achieves perfect separation.
+The legend rounds AUC to 0.84 and 0.81; that’s consistent with your results table.
+
+
+- Figure: `figures/roc_comparison.png`
+
 
 ## 6. Findings and Limitations
 
