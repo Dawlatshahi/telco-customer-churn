@@ -73,10 +73,24 @@
 ### Evaluation Split
 - 80% training / 20% testing.
 - 5,625 training customers; 1,407 test customers.
-- Stratification preserves approximately 73.42% stayed / 26.- 58% churned in both sets.
+- Stratification preserves approximately 73.42% stayed / 26.58% churned in both sets.
 - random_state=42 makes the split repeatable.
 - Both models will use the same split.
 - The full dataset was explored before splitting; test data will now be excluded from fitting and tuning.
+
+### Preprocessing and Logistic Regression
+- Three numerical features are standardized.
+- Fifteen text features are one-hot encoded; SeniorCitizen stays unchanged.
+- Preprocessing and the classifier are combined in a pipeline.
+- Logistic Regression uses max_iter=1000.
+- Training uses 5,625 customers; the test set hasn’t been used for fitting.
+- Performance has not yet been evaluated.
+
+### Random Forest
+- 200 trees, random_state=42, n_jobs=-1.
+- Separate preprocessing copy created with clone().
+- Trained on the same 5,625 customers as Logistic Regression.
+- Test performance has not yet been evaluated.
 
 
 ## 6. Findings and Limitations
