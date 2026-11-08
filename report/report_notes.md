@@ -1,6 +1,9 @@
 # Assignment 1 — Working Report Notes
 
 ## 1. Objective
+- A customer churn is when a customer does not want to continue with their contract and does not want to stay with the company.
+- in this project we want to explore a publlically availabe dataset to explore first and analyse the corelattions and customer charachteristic and then try to compare two binary classifiers that distinguish customer who churned and those who stayed. 
+- it is very important to find the pattern and identifying the customers who are at risk that help us to focus on customer retention. 
 
 ## 2. Dataset Source and Selection
 
@@ -61,6 +64,20 @@
 
 ## 5. Models and Evaluation
 - predicting "No" for everyone would achieve 73.42% accuracy while identifying no customers who churned.
+
+### Task 2 — Inputs and Target
+- X: 19 input features excloding customerID and Churn
+- y: churn encoded as No = 0, Yes = 1
+- 7032 customers before spliting
+
+### Evaluation Split
+- 80% training / 20% testing.
+- 5,625 training customers; 1,407 test customers.
+- Stratification preserves approximately 73.42% stayed / 26.- 58% churned in both sets.
+- random_state=42 makes the split repeatable.
+- Both models will use the same split.
+- The full dataset was explored before splitting; test data will now be excluded from fitting and tuning.
+
 
 ## 6. Findings and Limitations
 
