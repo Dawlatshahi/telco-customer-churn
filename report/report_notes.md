@@ -115,6 +115,11 @@ The legend rounds AUC to 0.84 and 0.81; that’s consistent with your results ta
 
 - Figure: `figures/roc_comparison.png`
 
+### ### Possible Improvements
+
+- Add recent customer behaviour, such as changes in service usage, late payments, complaints, and unresolved support requests. These could reveal warning signs missing from the current dataset.
+- Use only information available before the prediction date to avoid revealing the churn outcome.
+- These features are proposed improvements; their benefit would need to be tested using validation data from the training set.
 
 ## 6. Findings and Limitations
 
