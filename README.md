@@ -53,5 +53,3 @@ All setup commands should be run from the **project root**:
 
 4. Open `notebooks/telco_customer_churn.ipynb`, select `.venv` as the notebook kernel, and click **Run All**.
 
-## AI Assistance Declaration
-See section 6 of report/Customer_Churn_Report.pdf for the AI assistance declaration.
