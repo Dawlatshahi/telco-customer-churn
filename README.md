@@ -1,7 +1,5 @@
 # Telco Customer Churn Analysis & Classification
 
-Course: **COMP-551DL — Business Intelligence (Assignment 1)**  
-Author: Farzana Asadi (Student ID: U254N2745)
 
 ## Overview
 This project investigates customer churn using the IBM Telco Customer Churn dataset. It covers exploratory data analysis (EDA), data cleaning, and builds two binary classification models—**Logistic Regression** and **Random Forest**—to identify customers at risk of leaving.
